@@ -20,7 +20,7 @@ RUN npm install && \
 # 4327: websocket
 EXPOSE 4326
 
-VOLUME ["/opt/rcon-web-admin/db"]
+# VOLUME ["/opt/rcon-web-admin/db"]
 
 ENV RWA_ENV=TRUE
 
